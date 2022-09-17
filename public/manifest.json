@@ -3,34 +3,46 @@
   "short_name": "kromi tech",
   "icons": [
     {
-      "src": "//static.kromi.com/img/icons/app-48x48.png",
+      "src": "//static.globiva.com/img/icons/app-48x48.png",
       "type": "image/png",
-      "sizes": "48x48"
+      "sizes": "48x48",
+      "purpose": "maskable"
     },
     {
-      "src": "//static.kromi.com/img/icons/app-96x96.png",
+      "src": "//static.globiva.com/img/icons/app-48x48.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "48x48",
+      "purpose": "maskable"
     },
     {
-      "src": "//static.kromi.com/img/icons/app-144x144.png",
+      "src": "//static.globiva.com/img/icons/app-96x96.png",
       "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "96x96",
+      "purpose": "maskable"
     },
     {
-      "src": "//static.kromi.com/img/icons/app-192x192.png",
+      "src": "//static.globiva.com/img/icons/app-144x144.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "144x144",
+      "purpose": "maskable"
     },
     {
-      "src": "//static.kromi.com/img/icons/app-256x256.png",
+      "src": "//static.globiva.com/img/icons/app-192x192.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
-      "src": "//static.kromi.com/img/icons/app-512x512.png",
+      "src": "//static.globiva.com/img/icons/app-256x256.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256",
+      "purpose": "maskable"
+    },
+    {
+      "src": "//static.globiva.com/img/icons/app-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "start_url": "/",
@@ -39,7 +51,7 @@
   "orientation": "portrait-primary",
   "background_color": "#fff",
   "theme_color": "#333",
-  "description": "kromi Employee records update",
+  "description": "kromi tech",
   "dir": "ltr",
   "lang": "en-US"
 }
