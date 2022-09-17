@@ -12,7 +12,8 @@ import {
 } from "constants/RouterConstants";
 import {
   LoadableLoginContainer,
-  LoadableInboxContainer
+  LoadableInboxContainer,
+  LoadableAssetContainer
 } from "../LoadableContainer";
 
 import Home from '../../components/Home'
@@ -36,7 +37,7 @@ const mapStateToProps = (state) => {
     [LOGIN_PAGE]: LoadableLoginContainer,
     [HOME_PAGE]: Home,
     [INBOX_PAGE]: LoadableInboxContainer,
-    [ASSET_PAGE]: LoadableLoginContainer,
+    [ASSET_PAGE]: LoadableAssetContainer,
   };
 
   var postQuoteList = {};

@@ -3,43 +3,43 @@
   "short_name": "kromi tech",
   "icons": [
     {
-      "src": "//static.globiva.com/img/icons/app-48x48.png",
+      "src": "/img/icons/app-48x48.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-48x48.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "48x48",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-96x96.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "96x96",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-144x144.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "144x144",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-192x192.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-256x256.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "256x256",
       "purpose": "maskable"
     },
     {
-      "src": "//static.globiva.com/img/icons/app-512x512.png",
+      "src": "/img/apple-touch-icon.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"

@@ -15,7 +15,7 @@ const InboxComponent = ({ }) => {
         const { value = "" } = target;
         const obj = [...inboxdata];
         const data = obj.filter(dataObj=>{
-            return dataObj[key].includes(value)
+            return dataObj[key].toLowerCase().includes(value)
         })
         SetInboxData(data)
     };

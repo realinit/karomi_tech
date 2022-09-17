@@ -12,8 +12,15 @@ const LoadableInboxContainer = Loadable({
     return null;
   },
 });
+const LoadableAssetContainer = Loadable({
+  loader: () => import("./AssetContainer"),
+  loading: function () {
+    return null;
+  },
+});
 
 export {
   LoadableLoginContainer,
   LoadableInboxContainer,
+  LoadableAssetContainer,
 };
