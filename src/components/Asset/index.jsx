@@ -37,7 +37,7 @@ const AssetComponent = ({ }) => {
             {/* Top Content */}
             <div className="inbox_header">
                 <h1 className="inbox_header_head">Assets</h1>
-                <a href="/admin/home" className="btn gbtn mobileWrap_btn">Home</a>
+                <a href="/inbox" className="btn gbtn mobileWrap_btn">Home</a>
             </div>
             {/* inbox Data in Table */}
             <div className="asset_container">
