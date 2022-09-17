@@ -1,0 +1,39 @@
+.margin_zero {margin: 0;}
+.elipsis {
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.tool_tip {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    .tooltip_txt { color: #FF7B3A; cursor: pointer;}
+    &:hover {
+        .tooltip_content {
+            display: block;
+        }
+    }
+    .tooltip_content {
+        display: none; 
+        position: absolute;
+        top: 15px;
+        z-index: 99;
+        background: #3f424b;
+        color: #fff;
+        padding: 5px;
+        border: 1px solid #e5e5e5;
+        min-width: 250px;
+        animation-name: bounceIn;
+        animation-duration: 450ms;
+        animation-timing-function: linear;
+        animation-fill-mode: for;
+        .tooltip_content-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3px 0;
+        }
+    }
+}

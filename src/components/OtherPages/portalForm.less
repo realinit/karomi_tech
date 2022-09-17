@@ -1,0 +1,466 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+// common button css
+.gbtn {
+  background: #c02626;
+  padding: 0.5rem 2rem;
+  color: #fff;
+}
+.gbtn:hover {
+  color: #fff;
+}
+
+.commonLeftList {
+  color: #777171;
+  font-size: 1.1rem;
+  @media only screen and (max-width: 767px) {
+    font-size: 0.9rem;
+  }
+}
+
+// All Links Details Left section css
+.allLinks {
+  .sidebar__container--heading {
+    color: #777171;
+  }
+  &__subhead {
+    color: #777171;
+  }
+  &__content {
+    &__list {
+      display: flex;
+      flex-direction: column;
+    }
+    &__link {
+      color: #777171;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 1.2rem;
+      padding: 20px 40px;
+      &:hover {
+        background: #c02626;
+        color: #fff;
+        .allLinks__content__number {
+          background: #c02626;
+          color: #fff;
+        }
+      }
+      &.active {
+        background: #c02626;
+        color: #fff;
+        .allLinks__content__number {
+          background: #c02626;
+          color: #fff;
+        }
+      }
+    }
+    &__number {
+      background: #fff;
+      width: 35px;
+      height: 35px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #777171;
+      margin-right: 10px;
+    }
+  }
+}
+
+// Common css for form heading, field, inputwrap
+.portallForm {
+  padding: 50px;
+  &__field {
+    margin-bottom: 20px;
+    &__boldHeading {
+      color: #777171;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    &__heading {
+      color: #777171;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      font-weight: 400;
+      margin-right: 15px;
+    }
+    &__subHeading {
+      color: #777171;
+      margin-bottom: 0.6rem;
+    }
+    &__inputWrap {
+      display: flex;
+      align-items: center;
+      .formField_input {
+        width: 30%;
+        margin-right: 15px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      .textArea {
+        width: 100%;
+      }
+      .portallForm__field__subHeading {
+        margin-right: 10px;
+      }
+    }
+    &__addUploadWrap {
+      display: flex;
+      .portallForm__field__addBtn {
+        margin-left: 15px;
+      }
+    }
+    &__uploadWrap {
+      display: flex;
+      align-items: flex-start;
+      .formField_input {
+        width: 30%;
+      }
+      .uploadWrap {
+        margin-left: 25px;
+      }
+    }
+    &__tableWrap {
+      table {
+        tbody {
+          tr {
+            td {
+              .customRadioBox {
+                &__label {
+                  color: #333;
+                }
+                &__checkmark {
+                  background-color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &__addBtn {
+      text-align: right;
+      .gbtn {
+        border-radius: 50%;
+        padding: 8px 16px;
+      }
+    }
+    &__inputLabel {
+      margin-bottom: 0;
+      margin-right: 1.5rem;
+    }
+  }
+  &__btn {
+    text-align: right;
+    margin-top: 30px;
+    &.logout__btn {
+      position: fixed;
+      bottom: 0;
+      left: 0%;
+    }
+  }
+
+  &__form {
+    &__checkBox {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+.dateWrap {
+  .formField_input {
+    width: 100%;
+  }
+}
+
+// Common css for blue table can be moved in common less file
+.blackBgTable {
+  thead {
+    background: #000;
+    color: #fff;
+    tr {
+      border: 1px solid #fff;
+      th {
+        border: 1px solid #fff;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border: 1px solid #fff;
+      td {
+        border: 1px solid #fff;
+        .formField_input {
+          background: transparent;
+          padding: 0;
+          width: 100%;
+          &:focus {
+            outline: none;
+          }
+        }
+        .dateWrap {
+          .formField_input {
+            min-width: 85px;
+          }
+        }
+      }
+      &:nth-child(odd) {
+        background: #cacaca;
+      }
+      &:nth-child(even) {
+        background: #e6e6e6;
+      }
+    }
+  }
+}
+
+// Common css for red table used in admin
+.redTable {
+  border-collapse: separate;
+  border-spacing: 0 6px;
+  thead {
+    background: #c02628;
+    color: #fff;
+  }
+  th {
+    min-width: 130px;
+  }
+  tbody {
+    overflow: auto;
+    tr {
+      background: #f2f2f2;
+      border: 0;
+      td {
+        background: #f2f2f2;
+        margin-top: 10px;
+        border: 0;
+      }
+    }
+  }
+}
+
+// CSS for modal
+.gvModal {
+  .styles_modal__gNwvD {
+    width: 1000px;
+    max-width: 1200px;
+  }
+  // &_wrap {
+  //   padding: 2rem;
+  // }
+  .modal__header {
+    padding: 20px 15px;
+    background: #c02628;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .modal__body {
+    padding: 20px 15px;
+  }
+  .requestEdit {
+    display: flex;
+    flex-wrap: wrap;
+    .form__field__inputWrap {
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.inbox {
+  padding: 2rem;
+  box-sizing: border-box;
+  &_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_head {
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+  // Data container css
+  &_data {
+    display: flex;
+    margin: 2rem 0;
+    &_list {
+      width: 25%;
+      background: #808080;
+      border-radius: 6px;
+      margin-right: 16px;
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem 5rem;
+      &:last-child {
+        margin-right: 0;
+      }
+      &_txt {
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+      &_number {
+        margin-bottom: 0;
+      }
+    }
+  }
+  // filter container css
+  &_filter {
+    display: flex;
+    &_wrap {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 20px;
+    }
+    &_search {
+      width: 20%;
+      .formField_input {
+        width: 100%;
+      }
+    }
+  }
+  // Table container css
+  &_tableWrap {
+    margin-top: 2rem;
+    .actionWrap {
+      &_icon {
+        max-width: 35px;
+        margin-right: 10px;
+        cursor: pointer;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+// mobile devices
+@media only screen and (max-width: 767px) {
+  .sidebar__container {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    &--heading {
+      font-size: 1.2rem;
+    }
+  }
+  .portallForm {
+    padding: 15px;
+    .sidebar__container--heading {
+      font-size: 1.2rem;
+    }
+    &__content {
+      &--list {
+        font-size: 0.9rem;
+      }
+    }
+    &__field {
+      &__inputWrap {
+        flex-wrap: wrap;
+        .formField_input {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 15px;
+          font-size: 0.8rem;
+          &.block {
+            width: 100%;
+          }
+          &.halfBlock {
+            width: 50%;
+          }
+        }
+      }
+      &__heading {
+        font-size: 1rem;
+      }
+      &__boldHeading {
+        font-size: 1.1rem;
+      }
+      &__subHeading {
+        font-size: 0.9rem;
+      }
+      &__tableWrap {
+        max-width: 100%;
+        overflow: scroll;
+        position: relative;
+        .portallForm__field__addBtn {
+          text-align: center;
+          position: sticky;
+          left: 0;
+          .gbtn {
+            padding: 6px 14px;
+          }
+        }
+      }
+      &__addBtn {
+        .gbtn {
+          padding: 6px 14px;
+        }
+      }
+      &__inputLabel {
+        margin-bottom: 1.2rem;
+      }
+    }
+    &__btn {
+      text-align: center;
+      &.logout__btn {
+        position: fixed;
+        top: 0;
+        right: 0%;
+      }
+    }
+  }
+  .customRadioBox {
+    margin-bottom: 16px;
+  }
+
+  // table css
+  .blackBgTable {
+    thead {
+      tr {
+        th {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  // Collapse CSS
+  .collapseBox {
+    &_content {
+      &_btnWrap {
+        text-align: center;
+        .gbtn {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.searchBox__content {
+  backdrop-filter: blur(5px);
+}

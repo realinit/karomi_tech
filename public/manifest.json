@@ -1,0 +1,45 @@
+{
+  "name": "Globia",
+  "short_name": "HR ERP",
+  "icons": [
+    {
+      "src": "//static.Globia.com/img/icons/app-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "//static.Globia.com/img/icons/app-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "//static.Globia.com/img/icons/app-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "//static.Globia.com/img/icons/app-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "//static.Globia.com/img/icons/app-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "//static.Globia.com/img/icons/app-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "./..",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#333",
+  "description": "Globia Employee records update",
+  "dir": "ltr",
+  "lang": "en-US"
+}

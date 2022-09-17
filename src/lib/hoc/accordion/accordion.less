@@ -1,0 +1,14 @@
+.accordion{
+    display: block;
+    opacity: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.25s ease-out, opacity 0.4s linear;
+    &__show{
+        opacity: 1;
+        transform: scaleY(1);
+        transition: transform 0.25s ease-out, opacity 0.4s linear;
+    }
+}

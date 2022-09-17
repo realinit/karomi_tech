@@ -1,0 +1,24 @@
+.hoverInfo_content {
+    display: none; 
+    position: absolute;
+    top: 0;
+    right:110px;
+    z-index: 1;
+    background: #fff;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    min-width: 165px;
+    animation-name: bounceIn;
+    animation-duration: 450ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.hoverInfo_content-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hoverInfo:hover .hoverInfo_content {display: block;}

@@ -1,0 +1,50 @@
+@white: #fff;
+@orange_burnt: #ff7b39;
+@light_gray: #ccc;
+
+.al-checkfield {
+	display: none;
+	&:checked {
+		&+label {
+			i {
+				opacity: 1;
+			}
+			.al-indiv {
+				background: @white;
+				color: @orange_burnt;
+			}
+		}
+	}
+}
+.al-label {
+	&.label_content{
+		display: flex;
+		.label_text {
+			font-weight: 400;
+			width: 100%;
+		}
+	}
+	.al-indiv {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		border: 1px solid @light_gray;
+		text-align: center;
+		line-height: 21px;
+		margin: 0 5px;
+		border-radius: 3px;
+		cursor: pointer;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+		background: @white;
+	}
+	i {
+		font-size: 14px;
+		opacity: 0;
+	}
+	&:hover {
+		.al-indiv {
+			background: @white;
+		}
+	}
+}
+

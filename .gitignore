@@ -1,0 +1,82 @@
+################################################
+###############  .gitignore   ##################
+################################################
+
+################################################
+src/config/config.development.json
+
+# Heavy files which may be downloaded or a backup.
+*.deb
+*.gz
+
+#################
+# IDEs: Eclipse #
+#################
+.idea
+reincarnation.iml
+.cproject
+.project
+*.pydevproject
+.metadata
+.gradle
+*.tmp
+*.bak
+*~.nib
+local.properties
+.settings/
+.loadpath
+.launch
+!.vscode/.gitignore
+!.vscode/settings.json
+!.vscode/extensions.json
+v8-compile-cache-0/
+##################
+# IDEs: Netbeans #
+##################
+.netbeans
+nbproject/
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.komodotools/
+*.komodoproject
+
+##############################
+# Miscellaneous Text Editors #
+##############################
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+.*.kate-swp
+.swp.*
+.buildpath
+.target
+
+###########################
+# Build, Cache, Logs etc. #
+###########################
+build/*
+cache/*
+log/*.log
+logs/*.log
+temp/*
+tmp/*
+reports
+coverage
+.history
+
+################################################
+node_modules
+
+# Adding package-lock.json in git ignore to avoid pushing it to git.
+package-lock.json
+.DS_Store
+dist/css/*
+dist/font/*
+dist/js/*
+dist/*
+!.vscode/settings.json

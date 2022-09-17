@@ -1,0 +1,93 @@
+
+.login__section {
+  background: url('/img/adminSideBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login__form {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  margin-left: 10%;
+  &_heading {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .mobileWrap {
+    &_code {
+      width: 10%;
+      margin-right: 10px;
+    }
+    &_number {
+      width: 36%;
+      margin-right: 10px;
+    }
+  }
+
+  .otpWrap {
+    margin-top: 20px;
+    &__actions {
+      display: flex;
+      &__inputWrap {
+        margin-right: 15px;
+        width: 47%;
+      }
+      .gbtn {
+        min-width: 160px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .login__section {
+   background: #fff;
+    .sidebar__container {
+      position: static;
+      width: 100%;
+      height: auto;
+      padding: 30px;
+      &--logo {
+        &--img {
+          max-width: 40%;
+        }
+      }
+    }
+    .login__form {
+      margin-left: 0;
+      margin-top: 20px;
+      height: auto;
+      .mobileWrap {
+        text-align: center;
+        #phoneNumber {
+          margin-top: 15px;
+        }
+        &_code {
+          width: 100%;
+        }
+        &_number {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 15px;
+        }
+      }
+      .otpWrap {
+        text-align: center;
+        &__actions {
+          display: block;
+          text-align: center;
+          &__inputWrap {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+        }
+      }
+      &_heading {
+        color: #333;
+      }
+    }
+  }
+}
