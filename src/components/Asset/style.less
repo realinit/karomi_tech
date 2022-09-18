@@ -3,14 +3,33 @@
   .asset__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    // gap: 15px;
     .asset_item {
       text-align: center;
       border: 1px solid black;
       flex: 1 1 25%;
       min-width: 100px;
+      max-width: 285px;
+      margin-left: 20px;
+      margin-top: 20px;
+      height: 400px;
+      position: relative;
       img {
         width: 100%;
+      }
+      .caption {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        background: #000;
+        left: 0;
+        right: 0;
+        color: #fff;
+        padding: 10px;
+        z-index: 1;
+        .title {
+          font-size: 20px;
+        }
       }
     }
   }

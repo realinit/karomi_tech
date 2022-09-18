@@ -46,7 +46,11 @@ const AssetComponent = ({ }) => {
                         return (
                             <div className="asset_item">
                                 <div className="asset_thumbnail">
-                                    <img src={data.thumbnail} />
+                                    <img loading="lazy" src={data.thumbnail} />
+                                </div>
+                                <div className="caption">
+                                    <div className="title">{data.title}</div>
+                                    <div className="category">{data.category}</div>
                                 </div>
                             </div>
                         )
