@@ -96,7 +96,7 @@ const InboxComponent = ({ }) => {
                                     <td>{`${data.componentName || ''}`}</td>
                                     <td>{`${data.brand || ''}`}</td>
                                     <td>{`${data.pendingWith || ''}`}</td>
-                                    <td style={{background:`${data.status.toLowerCase()}`}}>{data.status || ''}</td>
+                                    <td style={{background:`${data.status.toLowerCase()}`,color:"#fff"}}><span class="color" style={{background:`${data.status.toLowerCase()}`}}> {data.status || ''} </span></td>
                                 </tr>
                             )
                         })}

@@ -1,16 +1,10 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import messageBus from "utils/messageBus";
-import ActionTypes from "constants/ActionTypes";
 
 //  import Router from '../components/Router.jsx';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { browserHistory } from "react-router";
-import MasterLayout from "shared/layout/masterLayout";
-import config from "config";
 import Error from "../components/Error/404";
 import ErrorBoundary from "../components/Error/ErrorBoundary";
-import utility from "./../utils/utility";
 
 const propTypes = {
   initEnvironment: PropTypes.func.isRequired,
